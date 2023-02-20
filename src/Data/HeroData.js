@@ -5,8 +5,8 @@ import Image4 from "../Assets/image4.jpg";
 
 export const HeroData = [
   {
-    title: "Luxury Villa in Bali, Indonesia",
-    price: "₹4,200.000",
+    title: "Luxury Villa in Zermatt, switzerland ",
+    price: "₹5,42,00,000",
     path: "1",
     label: "View Home",
     image: Image1,

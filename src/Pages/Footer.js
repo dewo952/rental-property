@@ -1,11 +1,11 @@
 import React from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
-import Fade from "react-reveal/Fade";
+
 
 const Footer = () => {
   return (
-    <Fade top>
+    
       <Wrapper>
         <Container>
           <TextContainer>
@@ -36,7 +36,7 @@ const Footer = () => {
           </ExploreContainer>
         </Container>
       </Wrapper>
-    </Fade>
+    
   );
 };
 
@@ -45,7 +45,7 @@ export default Footer;
 const Wrapper = styled.footer`
   width: 100%;
   min-height: 60vh;
-  background: #4d4d4d;
+  background: #457b9d;
   display: flex;
   align-items: center;
 `;

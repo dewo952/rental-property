@@ -47,7 +47,7 @@ const Wrapper = styled.article`
 const Container = styled(Link)`
   width: 300px;
   height: 280px;
-  color: #cd853f;
+  color: #457b9d;
   background: #f2f2f2;
   margin: 0 0.8rem 2.5rem 0.8rem;
   border-radius: 0 15px 0 15px;

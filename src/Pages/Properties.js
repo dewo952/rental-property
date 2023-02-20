@@ -4,7 +4,7 @@ import Filters from "../Components/Filters";
 import PropertiesList from "../Components/PropertiesList";
 import Sort from "../Components/Sort";
 import { useGlobalContext } from "../context";
-import Image from "../Assets/image23.jpg";
+import Image from "../Assets/img/image3.jpg";
 
 const Properties = () => {
   const { width, setBackgroundPages } = useGlobalContext();

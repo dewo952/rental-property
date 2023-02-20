@@ -47,7 +47,9 @@ const SingleHouse = () => {
                         <CgArrowsShrinkH /> <span>600</span> Feets
                       </p>
                     </div>
-                    <Button to="/contact">Know More</Button>
+                    <Button className="button" to="/contact">
+                      Know More
+                    </Button>
                   </InformationContainer>
                 </div>
               );
@@ -73,7 +75,7 @@ const BackgroundImage = styled.div`
   position: absolute;
   top: 0;
   left: 0;
-  background: #00102b;
+  background: #1d3557;
   z-index: -11;
 `;
 
@@ -84,7 +86,7 @@ const BackgroundImageTwo = styled.div`
   position: absolute;
   top: 30vh;
   right: 0;
-  background: rgba(3, 66, 255, 0.5);
+  background: #e63946;
   z-index: -11;
 `;
 const WrapperContainer = styled.section`
@@ -130,7 +132,7 @@ const InformationContainer = styled.div`
     }
   }
   svg {
-    color: #cd853f;
+    color: #e63946;
     font-size: 1.8rem;
     margin-right: 1rem;
   }
@@ -141,6 +143,10 @@ const InformationContainer = styled.div`
   p,
   .flex {
     margin: 1rem 0;
+  }
+  .button {
+    background-color: #e63946;
+    color: #fff;
   }
   @media screen and (max-width: 768px) {
     width: 100%;
@@ -189,7 +195,7 @@ const CarouselContainer = styled.section`
   .underline {
     width: 50%;
     height: 3px;
-    background: #cd853f;
+    background: #e63946;
     margin: 0.7rem 0;
   }
   @media screen and (max-width: 769px) {

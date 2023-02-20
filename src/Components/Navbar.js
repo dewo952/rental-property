@@ -38,7 +38,7 @@ const NavWrapper = styled.nav`
   width: 100%;
   transition: 0.5s;
   background: ${({ fixedNav, backgroundPages }) =>
-    fixedNav ? "#011627" : backgroundPages ? "rgba(0, 9, 51, 0.9)" : null};
+    fixedNav ? "#457b9d" : backgroundPages ? "#1d3557" : null};
 `;
 
 const NavLink = css`

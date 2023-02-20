@@ -20,7 +20,7 @@ const ImageCarousel = () => {
         infinite
         keyBoardControl
         minimumTouchDrag={80}
-        renderButtonGroupOutside={false}
+        renderButtonGroupOutside={false} 
         renderDotsOutside={false}
         responsive={{
           desktop: {
@@ -88,7 +88,7 @@ const SliderContainerContent = styled.div`
   height: 35vh;
   background: #f2f2f2;
   text-decoration: none;
-  color: #cd853f;
+  color: #e63946;
   box-shadow: 0px 0px 19px -8px rgba(0, 0, 0, 1);
   img {
     width: 100%;
@@ -97,7 +97,7 @@ const SliderContainerContent = styled.div`
   }
   a {
     text-decoration: none;
-    color: #cd853f;
+    color: #457b9d;
   }
   @media (min-width: 464px) and (max-width: 1023px) {
     width: 25vw;
