@@ -112,6 +112,7 @@ const Contact = () => {
               <button type="submit">Submit</button>
             </form>
           </FlexOne>
+    
         </Container>
       </Wrapper>
     </>
@@ -245,16 +246,3 @@ const FlexOne = styled.div`
   }
 `;
 
-const ContainerTwo = styled.div`
-  display: block;
-  h2 {
-    letter-spacing: 1px;
-  }
-  p {
-    font-weight: 400;
-    padding: 0.5rem 0;
-    &:last-child {
-      padding-bottom: 1.7rem;
-    }
-  }
-`;
