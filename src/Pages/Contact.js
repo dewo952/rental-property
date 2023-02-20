@@ -112,23 +112,6 @@ const Contact = () => {
               <button type="submit">Submit</button>
             </form>
           </FlexOne>
-          <FlexTwo>
-            <ContainerTwo>
-              <h2>Contact</h2>
-              <p>realestate@california.com</p>
-              <p>realestate@france.com</p>
-            </ContainerTwo>
-            <ContainerTwo>
-              <h2>Phone</h2>
-              <p>123-456-7890</p>
-              <p>098-765-4321</p>
-            </ContainerTwo>
-            <ContainerTwo>
-              <h2>Location</h2>
-              <p>829, One Way Stree - California.</p>
-              <p>219, Second Way Stree - Miami.</p>
-            </ContainerTwo>
-          </FlexTwo>
         </Container>
       </Wrapper>
     </>
@@ -197,6 +180,7 @@ const FlexOne = styled.div`
   display: grid;
   width: 55%;
   margin-top: -5rem;
+  margin-left: 20rem;
   .input,
   textarea {
     border: none;
@@ -219,8 +203,8 @@ const FlexOne = styled.div`
     height: 20%;
   }
   button {
-    background: #cd853f;
-    border: 1px solid #cd853f;
+    background: #000;
+    border: 2px solid #fff;
     padding: 0.5rem 2rem;
     border-radius: 5px;
     transition: 0.3s;
@@ -228,7 +212,7 @@ const FlexOne = styled.div`
     margin-left: 1rem;
     cursor: pointer;
     &:hover {
-      color: #cd853f;
+      color: #000;
       background: #fff;
       border: 1px solid #000;
     }
@@ -258,18 +242,6 @@ const FlexOne = styled.div`
       width: 50%;
       display: block;
     }
-  }
-`;
-
-const FlexTwo = styled.div`
-  width: 45%;
-  height: 80%;
-  display: block;
-  margin-top: -2rem;
-  @media screen and (max-width: 769px) {
-    width: 100%;
-    margin-top: 2rem;
-    margin-left: 1rem;
   }
 `;
 
