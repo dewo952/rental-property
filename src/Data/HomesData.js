@@ -280,7 +280,7 @@ export const homesDataObject = [
     ],
   },
   {
-    title: "New York, USA",
+    title: "South Mumbai, India",
     price: 2500000,
     rentalPrice: 42000,
     locality: "USA",
